@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather app</title>
+
+
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Hind:wght@100;200;300;400;500;600;700&display=swap);
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Hind', sans-serif;
+            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0px auto;
+            padding: 50px;
+            font-size: 3rem;
+            background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+        }
+
+        .container {
+            text-align: center;
+            margin: 0px auto;
+            padding: 50px;
+        }
+
+        input {
+            border: none;
+            background: white;
+            width: 300px;
+            height: 50px;
+            border-radius: 10px 0px 0px 10px;
+            font-size: 1.8rem;
+            background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        }
+
+        button {
+            border: none;
+            background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+            color: white;
+
+            height: 50px;
+            border-radius: 0px 10px 10px 0px;
+            font-size: 1.8rem;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #FFFFFF;
+            background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+            color: white;
+            text-align: center;
+
+        }
+
+        footer p {
+            margin: 25px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Wheather Application</h1>
+    <div class="container">
+        <form action="/" method="post">
+            <legend for=" cityinput" style=" font-size: 3rem;">City Name</legend>
+            <input type="text" id="cityinput" name="CityName" placeholder="chennai">
+            <button type="submit">Get Weather</button>
+        </form>
+    </div>
+    <footer>
+        <p>@copyrights resversed - dev</p>
+    </footer>
+</body>
+
+</html>
